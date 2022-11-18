@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day:
   theme_night: minimal
   font: minimal
   font_size: L
@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/Agos95/Agos95.github.io'
     content_dir: content
     branch: main
   avatar:
