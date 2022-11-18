@@ -8,7 +8,7 @@
 appearance:
   theme_day:
   theme_night: minimal
-  font: minimal
+  font: native
   font_size: L
 
 # SEO
@@ -16,16 +16,16 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    local_business_type: ""
+    org_name: ""
+    description: "Federico Agostini personal website"
+    twitter: ""
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
+    google_analytics: ""
+    baidu_tongji: ""
   verification:
-    google: ''
-    baidu: ''
+    google: ""
+    baidu: ""
 
 # Site header
 
@@ -36,14 +36,14 @@ header:
     show_logo: true
     show_language: false
     show_day_night: true
-    show_search: true
+    show_search: false
     highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: "© {year} Federico Agostini. This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false
@@ -53,8 +53,8 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: "Jan 2, 2006"
+  time_format: "3:04 PM"
   address_format: en-us
 
 # Site features
@@ -68,34 +68,34 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/Agos95/Agos95.github.io'
+    url: "https://github.com/Agos95/Agos95.github.io"
     content_dir: content
     branch: main
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: ""
     disqus:
-      shortname: ''
+      shortname: ""
       show_count: true
     commento:
-      url: ''
+      url: ""
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: ""
+      repo_id: ""
+      category: ""
+      category_id: ""
   search:
     provider: wowchemy
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
+      app_id: ""
+      api_key: ""
+      index_name: ""
       show_logo: false
   map:
-    provider: ''
-    api_key: ''
+    provider: ""
+    api_key: ""
     zoom: 15
 
 # Extensions
@@ -111,4 +111,4 @@ extensions:
 
 security:
   # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+  allow_frame: false
