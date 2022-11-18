@@ -1,0 +1,18 @@
+{
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.content.pageFolders": [
+        {
+            "path": "[[workspace]]/content/post",
+            "title": "post"
+        }
+    ],
+    "frontMatter.taxonomy.tags": [
+        "Academic",
+        "开源"
+    ],
+    "frontMatter.taxonomy.categories": [
+        "Demo",
+        "教程"
+    ]
+}
