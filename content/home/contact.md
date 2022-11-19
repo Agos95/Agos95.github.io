@@ -1,7 +1,7 @@
 ---
 # An instance of the Contact widget.
 widget: contact
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
@@ -17,41 +17,41 @@ content:
   autolink: true
 
   # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+  #form:
+  #  provider: netlify
+  #  formspree:
+  #    id:
+  #  netlify:
+  #    # Enable CAPTCHA challenge to reduce spam?
+  #    captcha: false
 
   # Contact details (edit or remove options as required)
-  email: test@example.org
-  phone: 888 888 88 88
+  email: federico.agostini.5@studenti.unipd.it
+  phone: 
   address:
-    street: 450 Serra Mall
-    city: Stanford
-    region: CA
-    postcode: '94305'
-    country: United States
-    country_code: US
+    street: |
+      <a href="https://goo.gl/maps/4ejPzFAxFkxryAq68" target="_blank">Via Leonardo Loredan, 10, 35131, Padova</a>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.9368211784295!2d11.885639971010015!3d45.41028991933228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eda5915d58d37%3A0xbed58e303d02315a!2sMuseum%20of%20the%20History%20of%20Physics!5e0!3m2!1sen!2sit!4v1668863004609!5m2!1sen!2sit" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    city:
+    region:
+    postcode:
+    country: Italia
+    country_code: IT
   coordinates:
-    latitude: '37.4275'
-    longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+    latitude: "45.41044070319274"
+    longitude: "11.885795189418241"
+  directions: Second Floor
   office_hours:
-    - 'Monday 10:00 to 13:00'
-    - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com'
+  appointment_url:
   contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/Twitter'
-    - icon: video
-      icon_pack: fas
-      name: Zoom Me
-      link: 'https://zoom.com'
+  #  - icon: twitter
+  #    icon_pack: fab
+  #    name: DM Me
+  #    link: 'https://twitter.com/Twitter'
+  #  - icon: video
+  #    icon_pack: fas
+  #    name: Zoom Me
+  #    link: 'https://zoom.com'
 
 design:
   columns: '2'
