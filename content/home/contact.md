@@ -44,6 +44,10 @@ content:
   office_hours:
   appointment_url:
   contact_links:
+    - icon: github
+      icon_pack: fab
+      name: GitHub
+      link: https://github.com/Agos95
   #  - icon: twitter
   #    icon_pack: fab
   #    name: DM Me
