@@ -47,7 +47,7 @@ url_dataset:
 url_poster: ESC_pipeline_poster.pdf
 url_project:
 url_slides:
-url_source: https://doi.org/10.1093/ehjci/jeac141.017
+url_source:
 url_video:
 
 # Featured image

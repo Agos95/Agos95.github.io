@@ -26,7 +26,7 @@ content:
   #    captcha: false
 
   # Contact details (edit or remove options as required)
-  email: federico.agostini.5@studenti.unipd.it
+  email:
   phone: 
   address:
     street: |
@@ -40,22 +40,22 @@ content:
   coordinates:
     latitude: "45.41044070319274"
     longitude: "11.885795189418241"
-  directions: Second Floor
+  directions: First Floor
   office_hours:
   appointment_url:
   contact_links:
+    - icon: envelope
+      icon_pack: fas
+      name: federico.agostini.5@studenti.unipd.it
+      link: mailto:federico.agostini.5@studenti.unipd.it
+    - icon: envelope
+      icon_pack: fas
+      name: federico.agostini@polito.it
+      link: mailto:federico.agostini@polito.it
     - icon: github
       icon_pack: fab
       name: GitHub
       link: https://github.com/Agos95
-  #  - icon: twitter
-  #    icon_pack: fab
-  #    name: DM Me
-  #    link: 'https://twitter.com/Twitter'
-  #  - icon: video
-  #    icon_pack: fas
-  #    name: Zoom Me
-  #    link: 'https://zoom.com'
 
 design:
   columns: '2'
